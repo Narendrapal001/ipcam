@@ -1,0 +1,6 @@
+{
+  "name": "CamStream",
+  "description": "Stream your phone camera feed in real-time to your laptop browser with glassmorphism UI, quality and FPS controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

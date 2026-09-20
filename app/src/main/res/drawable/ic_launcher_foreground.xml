@@ -1,0 +1,73 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Camera Body -->
+    <path
+        android:pathData="M34,42 C34,39.8 35.8,38 38,38 L43,38 L45,34 L63,34 L65,38 L70,38 C72.2,38 74,39.8 74,42 L74,70 C74,72.2 72.2,74 70,74 L38,74 C35.8,74 34,72.2 34,70 Z"
+        android:strokeWidth="2.5"
+        android:strokeColor="#38BDF8">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:angle="45"
+                android:endX="74"
+                android:endY="74"
+                android:startX="34"
+                android:startY="34"
+                android:type="linear">
+                <item android:color="#3038BDF8" android:offset="0.0" />
+                <item android:color="#20818CF8" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Camera Lens Outer Ring -->
+    <path
+        android:pathData="M54,56m-13,0a13,13 0,1,1 26,0a13,13 0,1,1 -26,0"
+        android:strokeWidth="2.5"
+        android:strokeColor="#818CF8"
+        android:fillColor="#251E1B4B" />
+
+    <!-- Camera Lens Inner Pupil / Aperture -->
+    <path
+        android:pathData="M54,56m-7,0a7,7 0,1,1 14,0a7,7 0,1,1 -14,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:angle="90"
+                android:endX="54"
+                android:endY="63"
+                android:startX="54"
+                android:startY="49"
+                android:type="linear">
+                <item android:color="#38BDF8" android:offset="0.0" />
+                <item android:color="#6366F1" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Lens Glint -->
+    <path
+        android:pathData="M56,53m-2.5,0a2.5,2.5 0,1,1 5,0a2.5,2.5 0,1,1 -5,0"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Live Broadcast Wave Top-Right -->
+    <path
+        android:pathData="M69,32 C74,32 78,36 78,41"
+        android:strokeWidth="2.5"
+        android:strokeColor="#38BDF8"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M72,27 C80,27 86,33 86,41"
+        android:strokeWidth="2.5"
+        android:strokeColor="#818CF8"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Status indicator LED -->
+    <path
+        android:pathData="M67,43m-1.5,0a1.5,1.5 0,1,1 3,0a1.5,1.5 0,1,1 -3,0"
+        android:fillColor="#34D399" />
+</vector>
